@@ -20,12 +20,14 @@ How to update existing project with new changes from rails-base repository
 Fetch latest changes from rails-base repo and merge or cherry-pick commits
 ```
 git fetch rails-base
-git flow feature start rails-base-update
+git checkout -b rails-base-update
 git merge rails-base/master
 
 # fix conflicts
 # commit
 # test
 
-git flow feature finish rails-base-update
+git checkout master
+git merge rails-base-update
+git branch -d rails-base-update
 ```
