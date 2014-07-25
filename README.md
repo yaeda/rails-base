@@ -11,7 +11,7 @@ git clone git://github.com/yaeda/rails-base.git --origin rails-base [NEW-PROJECT
 
 Create new repo on GitHub and push master into it. Make sure master branch is tracking origin repo.
 ```
-git remote add origin git@github.com:yaeda/[NEW-PROJECT].git
+git remote add origin git@github.com:[NAMESPACE]/[NEW-PROJECT].git
 git push -u origin master
 ```
 
