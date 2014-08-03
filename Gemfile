@@ -12,6 +12,8 @@ group :development do
   gem 'guard-rspec'
   gem 'factory_girl_rails'
 
+  gem 'terminal-notifier-guard'
+
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
