@@ -1,5 +1,7 @@
 rails-base
 ====================
+[![Dependency Status](https://gemnasium.com/yaeda/rails-base.svg)](https://gemnasium.com/yaeda/rails-base)
+
 Skeleton for new Rails based projects
 
 Quick start
